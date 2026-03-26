@@ -109,8 +109,6 @@ uv venv
 
 # Install dependencies
 uv pip install -r pyproject.toml
-
-# The sentence-camembert-large model (~1.3GB) downloads automatically on first use
 ```
 
 ### Alternative: Setup with pip
@@ -122,8 +120,6 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn sentence-transformers missingno jupyter
-
-# The sentence-camembert-large model (~1.3GB) downloads automatically on first use
 ```
 
 ## Usage
